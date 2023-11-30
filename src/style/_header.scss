@@ -1,0 +1,39 @@
+.header {
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 49px;
+		margin-bottom: 120px;
+
+		.logo {
+			color: var(--Text-1, $main-color);
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+		}
+
+		.link {
+			color: $main-color;
+			text-decoration: none;
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			margin: 0px 10px;
+	
+			&:last-child {
+				margin-right: 0;
+			}
+
+			&:hover {
+				color: #EF8964;
+				transition: all .2s linear;
+			}
+		}
+	}
+
+	
+
+}

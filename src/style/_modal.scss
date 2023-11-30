@@ -1,0 +1,73 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+
+	.modal {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		width: 400px;
+		height: 200px;
+		padding: 20px;
+		background: #fff;
+
+		.name {
+			margin-top: 30px;
+			background: #D9D9D9;
+			border: none;
+			border-radius: 30px;
+			padding: 3px 8px;
+		}
+
+		.email {
+			background: #D9D9D9;
+			border: none;
+			border-radius: 30px;
+			padding: 3px 8px;
+		}
+
+		.btn-close {
+			position: absolute;
+			right: 12px;
+			top: 12px;
+			background: blue;
+			padding: 3px 8px;
+			border: none;
+
+			&:hover {
+				background: red;
+			}
+		}
+
+		.btn-submit {
+			margin-top: 10px;
+			border: none;
+			border-radius: 20px;
+			padding: 6px 0;
+			background: #D9D9D9;
+
+			&:hover {
+				background: transparent;
+				box-shadow:  0 0 0 2px #E6533C;
+				transition: all .3s;
+			}
+
+			&:active {
+				background: #E6533C;
+				box-shadow: none;
+				color: #fff;
+				transition: all .1s;
+
+			}
+		}
+	}
+
+}

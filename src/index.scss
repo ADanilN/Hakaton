@@ -1,6 +1,12 @@
 @import './libs/normalize';
+@import './style/reset';
 @import './style/fonts';
 @import './style/var';
-@import './style/style';
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@700&display=swap');
+@import './style/header';
+@import './style/hero';
+@import './style/sure';
+@import './style/home';
+@import './style/training';
+@import './style/member';
+@import './style/modal';
+
